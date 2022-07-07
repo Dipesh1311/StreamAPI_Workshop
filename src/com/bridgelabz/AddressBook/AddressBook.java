@@ -16,10 +16,10 @@ public class AddressBook {
         raj.setCity("Surat");
         raj.setState("Gujrat");
 
-        List<Contact> myContactsList = new ArrayList<>();
-        myContactsList.add(dipesh);
-        myContactsList.add(raj);
-        System.out.println(myContactsList);
+        List<Contact> myContactList = new ArrayList<Contact>();
+        myContactList.add(dipesh);
+        myContactList.add(raj);
+        System.out.println(myContactList);
 
     }
 }

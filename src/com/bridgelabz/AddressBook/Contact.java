@@ -24,5 +24,12 @@ public class Contact {
         public void setState(String state) {
         this.state = state;
     }
+    public String toString() {
+            return  "Contacts{" +
+                    "firstName='" + firstName+ '\'' +
+                    ", city='" + city + '\'' +
+                    ", state='" + state + '\'';
+
+    }
 
 }
